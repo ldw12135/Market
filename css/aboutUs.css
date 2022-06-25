@@ -1,0 +1,50 @@
+body{
+	background: white;
+}
+.about-content{
+	background: #f1f1f1;
+	margin-top: .9rem;
+}
+.top-title{
+	height: 1rem;
+	background: white;
+	border-top: 1px solid #C8C9CC;
+}
+.top-title div{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.top-title{
+	color: #7f7f7f;;
+	font-size: .31rem;
+}
+.top-title span:first-of-type{
+	color: #4b4b4b;
+}
+.top-title span:last-of-type{
+	font-size: .2rem;
+}
+.top-title div,.title-text div{
+	width: 94%;
+	margin: 0 auto;
+}
+.title-text{
+	color: #7f7f7f;
+	font-family: "仿宋体";
+	margin-top: .15rem;
+	background: white;
+}
+.title-text p{
+	display: flex;
+	align-items: flex-end;
+	height: .45rem;
+	width: 100%;
+	font-size: .26rem;
+}
+.title-text .title-text-top{
+	padding-top: .1rem;
+}
+.title-text .title-text-bottom{
+	padding-top: .4rem;
+}

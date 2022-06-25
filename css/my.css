@@ -1,0 +1,116 @@
+.section-bg{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: .9rem;
+	height: 3.7rem;
+	background: url(../img/bg.jpg)no-repeat;
+	background-size: 100% 100%;
+}
+.section-bg-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: 70%;
+}
+.section-bg-content .avatar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	background: #feebed;
+}
+.section-bg-content .avatar img{
+	width: 75%;
+	height: 75%;	
+}
+.section-bg-btn{
+	width: 60%;
+	height: 35%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.section-bg-btn a{
+	width: 1.6rem;
+	height: .63rem;
+	color: white;
+	font-size: .3rem;
+	text-align: center;
+	line-height: .63rem;
+	background: #fd6f7e;
+	border-radius: .33rem;
+}
+.my-list{
+	font-size: .3rem;
+}
+.my-list li{
+	background: #ffffff;
+}
+.my-list li:first-of-type{
+	height: .9rem;
+	display: flex;
+}
+.my-list li:nth-child(2){
+	margin: .2rem 0 .2rem;
+} 
+.li-content{
+	width: 74%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.li-content a{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 36%;
+	color: #393939;
+	font-size: .3rem;
+}
+.li-content-nav i,.lis-content a{
+	display: inline-block;
+	width: .65rem;
+	height: .65rem;
+}
+.li-content-nav i img,.lis-content a img{
+	width: 100%;
+	height: 100%;
+}
+.lis-content{
+	margin-top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: .9rem;
+}
+.lis-content .icon-btn{
+	margin: 0 .25rem 0;
+}
+.lis-content-title{
+	width: 88%;
+	height: 100%;
+	border-bottom: 1px solid #C8C9CC;
+}
+.lis-content-title div{
+	width: 97%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.lis-content-title div a{
+	display: flex;
+	align-items: center;
+	width: 1.3rem;
+	color: #393939;
+	font-size: .3rem;
+}
+.property,.aboutus{
+	border: none;
+}

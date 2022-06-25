@@ -1,0 +1,76 @@
+.shippingAddress{
+	margin-top: 1.05rem;
+}
+.shippingAddress ul li{
+	height: 2.2rem;
+	font-size: .3rem;
+	font-family: "微软雅黑";
+	margin-top: .15rem;
+	background: white;
+	color: #5d5d5d;
+}
+.shippingAddress ul li .contents{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 88%;
+	height: 100%;
+	margin: 0 auto;
+}
+.contents .mess{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 60%;
+	border-bottom: 1px solid #999999;
+}
+.contents .mess p:nth-child(2){
+	font-size: .28rem;
+}
+.handel-mess-left{
+	display: flex;
+	align-items: center;
+}
+.handel-mess-left i{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: .29rem;
+	height: .29rem;
+	color: white;
+	font-size: .28rem;
+	border: 1px solid #666666;
+	margin-right: .12rem;
+}
+.handel-mess-left .el-icon-check{
+	background: #eb3a4e;
+	border: 1px solid #eb3a4e;
+}
+.handel-mess-left .check-text{
+	color: #eb3a4e;
+}
+.mess p:nth-child(1),.handel-mess,.handel-mess-right{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.handel-mess{
+	height: 40%;
+	font-size: .27rem;
+}
+.handel-mess-right{
+	width: 2.5rem;
+	height: 100%;
+}
+.handel-mess-right div{
+	display: flex;
+	align-items: center;
+}
+.handel-mess-right i{
+	cursor: pointer;
+	font-size: .34rem;
+	margin-right: .1rem;
+}
+.handel-mess-right div{
+	cursor: pointer;
+}

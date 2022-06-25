@@ -1,0 +1,172 @@
+.home-section{
+	margin: .9rem 0 .9rem;
+	background: white;
+}
+.carousel-slide img{
+	width: 100%;
+	height: 2.8rem;
+}
+.pagination{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: .39rem;
+	margin-top: -.44rem;
+	border: 1px solid red;
+}
+.pagination span{
+	display: inline-block;
+	width: .15rem;
+	height: .15rem;
+	margin: .05rem .08rem 0;
+	border-radius: 50%;
+	border: 1px solid dodgerblue;
+}
+.pagination span:nth-child(1){
+	background: dodgerblue;
+}
+.home-product ul{
+	width: 95%;
+	margin: .15rem auto;
+}
+.home-product ul li{
+	margin-top: .12rem;
+	height: 1.18rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid #C0C4CC;
+}
+.product-left-img{
+	width: 15%;
+	height: 76%;
+	display: flex;
+	align-items: center;
+	margin: 0 .15rem 0 .1rem;
+}
+.product-left-img img{
+	width: 100%;
+	height: 100%;
+}
+.product-center-text{
+	width: 64%;
+	height: 76%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.sign,.price{
+	color: #fe827b;
+}
+del,.sales{
+	color: #bbbbbb;
+}
+.product-center-text p:first-of-type{
+	font-size: .28rem;
+}
+.product-center-text p:last-of-type{
+	font-size: .25rem;
+}
+.product-center-text p:last-of-type del{
+	margin: 0 .11rem 0;
+}
+.product-right-shoppingBtn{
+	width: 17%;
+	height: 76%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.product-right-shoppingBtn a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: .6rem;
+	height: .6rem;
+	border-radius: 50%;
+	margin-right: 14%;
+	background: #e4e4e4;
+}
+.el-icon-shopping-cart-2{
+	width: 60%;
+	height: 60%;
+	color: white;
+	font-size: .4rem;
+	margin-right: .04rem;
+}
+.handle-business{
+	height: 1.9rem;
+	display: flex;
+}
+.handle-business div{
+	height: 100%;
+}
+.handle-business div:nth-child(1),.handle-business div:nth-child(3){
+	display: flex;
+	align-items: center;
+	width: 30%;
+	height: 100%;
+	background: #f1f1f1;
+}
+.handle-business div:nth-child(2){
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40%;
+	height: 100%;
+	background: #f1f1f1;
+}
+.handle-business a .bg1{
+	width: 1rem;
+	height: 1rem;
+	margin-left: 13%;
+	background: url(../img/liwu.jpg)no-repeat;
+	background-size: 100% 100%;
+}
+.handle-business a .bg2{
+	margin: 0 auto;
+	width: 1rem;
+	height: 1rem;
+	background: url(../img/daili.jpg)no-repeat;
+	background-size: 100% 100%;
+}
+.handle-business a .bg3{
+	width: 1rem;
+	height: 1rem;
+	margin-left: 40%;
+	background: url(../img/duihuan.jpg)no-repeat;
+	background-size: 100% 100%;
+}
+.handle-business div:nth-child(2) a{
+	width: 93%;
+	height: 88%;
+}
+.handle-business div:nth-child(2) a p{
+	margin: 0 auto;
+}
+.handle-business div:nth-child(3) a p{
+	margin-left: 27%;
+}
+.business-nav{
+	width: 100%;
+	height: 88%;
+}
+.handle-business a{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #585858;
+	font-size: .3rem;
+	background: white;
+}
+.handle-business a i{
+	width: 53%;
+	height: 60%;
+	background-size: 100% 100%;
+}
+
+.handle-business a p{
+	width: 73%;
+	text-align: center;
+}
+

@@ -1,0 +1,155 @@
+header{
+	border-bottom: 1px solid darkgray;
+}
+.title{
+	width: 1.5rem;
+	text-align: right;
+}
+.btn{
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	font-size: .25rem;
+	margin-right: .22rem;	
+}
+.shpping-product{
+	font-size: .28rem;
+	margin: .9rem 0 2rem;
+	
+}
+.shpping-product ul li{
+	display: flex;
+	align-items: center;
+	height: 2.5rem;
+	background: white;
+	margin-bottom: .2rem;
+}
+.section-content{
+	width: 93%;
+	height: 76%;
+	margin: 0 auto;
+}
+.leftInput{
+	display: flex;
+	align-items: center;
+}
+.leftInput i{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: .36rem;
+	height: .36rem;
+	color: white;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 1px solid #CCCCCC;
+}
+.leftInput .el-icon-check{
+	border: none;
+	background: #ff3334;
+}
+.centerImg{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 38%;
+}
+.centerImg img{
+	width: 80%;
+	height: 100%;
+}
+.rightText{
+	width: 60%;
+}
+.rightText-top{
+	color: #4f4f4f;
+	font-size: .29rem;
+}
+.section-content{
+	display: flex;
+}
+.rightText{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.rightText-bottom{
+	margin-bottom: .1rem;
+}
+.rightText-bottom .count{
+	display: flex;
+	justify-content: space-between;
+}
+.rightText-bottom p:first-of-type{
+	color: #ff3333;
+}
+.count del{
+    color: #999999;
+}
+.addProduct{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 50%;	
+}
+.addProduct span{
+	cursor: pointer;
+	width: .31rem;
+	height: .25rem;
+	color: #999999;
+	text-align: center;
+	line-height: .23rem;
+	border: 1px solid gray;
+}
+.bottom{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.box-delete{
+	display: flex;
+	justify-content: space-between;
+	height: 1.03rem;
+	font-size: .3rem;
+	background: white;
+}
+.checkbox{
+	display: flex;
+	align-items: center;
+	color: #4e4e4e;
+	margin-left: .26rem;
+	line-height: .9rem;
+}
+.checkbox i{
+	display: inline-block;
+	width: .36rem;
+	height: .36rem;
+	color: white;
+    margin: 0 .25rem 0 .03rem;
+	border-radius: 50%;
+	border: .01rem solid #CCCCCC;
+}
+.delete-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 2rem;
+	height: 100%;
+	color: white;
+	cursor: pointer;
+	background: #ff3334;
+}
+.box-delete{
+	margin-top: -2rem;
+}
+.box-delete-right{
+	display: flex;
+}
+.Total-balance{
+	display: flex;
+	align-items: center;
+	width: 2rem;
+}
+.Total-balance span:nth-child(1){
+	color: #4e4e4e;
+}

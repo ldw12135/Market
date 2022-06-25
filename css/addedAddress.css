@@ -1,0 +1,70 @@
+.addedAddress{
+	margin-top: .9rem;
+}
+.addedAddress ul li{
+	height: 2.8rem;
+	font-size: .3rem;
+}
+.addedAddress ul li .mesType{
+	height: .7rem;
+	line-height: .7rem;
+}
+.mesType span{
+	margin-left: .25rem;
+}
+.addedAddress ul li .shuru{
+	height: 1.05rem;
+	background: white;
+}
+.addedAddress ul li .shuru:nth-child(2){
+	border-bottom: 1px solid #999999;
+}
+.addedAddress ul li .shuru div{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	margin-left: .25rem;
+}
+.shuru div input{
+	width: 66%;
+	height: 90%;
+	text-indent: .2rem;
+	font-size: .29rem;
+	margin-left: .2rem;
+	border: none;
+	outline: none;
+	background: none;
+}
+.shuru div i{
+	cursor: pointer;
+	margin-left: .42rem;
+}
+.shuru div label{
+	width: 1.35rem;
+}
+.addedAddress ul .checkbox{
+	display: flex;
+	align-items: center;
+	margin-top: .2rem;
+	height: 1.05rem;
+	font-size: .3rem;
+	background: white;
+}
+.addedAddress ul .checkbox div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 93.5%;
+	margin: 0 auto;
+}
+.checkbox div i{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: .33rem;
+	height: .33rem;
+	color: white;
+	font-size: .26rem;
+	border-radius: 50%;
+	background: #ff3334;
+}
